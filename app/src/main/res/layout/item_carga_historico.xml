@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Arquivo: res/layout/item_carga_historico.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <!-- Data -->
+    <TextView
+        android:id="@+id/textDataCarga"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="13sp"
+        android:textColor="#6B7280" />
+
+    <!-- Carga em kg -->
+    <TextView
+        android:id="@+id/textCargaKg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#6366F1"
+        android:gravity="center" />
+
+    <!-- Séries × Repetições -->
+    <TextView
+        android:id="@+id/textSeriesRep"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="13sp"
+        android:textColor="#1A1A2E"
+        android:gravity="end" />
+
+</LinearLayout>

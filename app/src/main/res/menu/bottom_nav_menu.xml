@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Arquivo: res/menu/bottom_nav_menu.xml
+    Define as 3 abas do BottomNavigationBar.
+    Os ícones usados são do Material Design (já inclusos na dependência
+    com.google.android.material que seu projeto já tem).
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_home"
+        android:title="Início" />
+
+    <item
+        android:id="@+id/nav_treino"
+        android:icon="@drawable/ic_fitness"
+        android:title="Treino" />
+
+    <item
+        android:id="@+id/nav_nutricao"
+        android:icon="@drawable/ic_restaurant"
+        android:title="Nutrição" />
+
+</menu>
